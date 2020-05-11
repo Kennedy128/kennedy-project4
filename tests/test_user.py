@@ -23,4 +23,4 @@ class UserModelTest(unittest.TestCase):
     test method that tests if password are verified corrrectly
     '''
 
-    self.assertTrue(self.new_user.verify_password('victor'))
+    self.assertTrue(self.new_user.verify_password('kennedy'))
