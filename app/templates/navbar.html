@@ -16,7 +16,7 @@
       </ul>
       <ul class="nav navbar-nav navbar-right">
         {% if current_user.is_authenticated %}
-        <li><a href="{{url_for('auth.logout')}}"><button class="btn-xs btn-warning">WRITER SIGN OUT</button></a></li>
+        <li><a href="{{url_for('auth.logout')}}"><button class="btn-xs btn-warning">WRITER SIGNING OUT</button></a></li>
         {% else %}
         <li><a href="{{url_for('auth.login')}}"><button class="btn-xs btn-danger">WRITER SIGNING IN</button></a></li>
         <li><a href="{{url_for('auth.subscribe')}}"><button class="btn-xs btn-danger">SUBSCRIBiNG</button></a></li>
