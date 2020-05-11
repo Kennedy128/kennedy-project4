@@ -11,5 +11,5 @@ class CommentModelTest(unittest.TestCase):
 
   def test_check_instance_variables(self):
     self.assertEquals(self.new_comment.content,'Test comment')
-    self.assertEquals(self.new_comment.user,self.user_victor)
+    self.assertEquals(self.new_comment.user,self.user_kennedy)
     self.assertEquals(self.new_comment.blog,self.new_blog)
