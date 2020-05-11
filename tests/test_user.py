@@ -5,7 +5,7 @@ class UserModelTest(unittest.TestCase):
     '''
     test method that runs before all other tests
     '''
-    self.new_user = User(password = 'victor')
+    self.new_user = User(password = 'kennedy')
   def test_password_setter(self):
     '''
     method that tests if password setter works
